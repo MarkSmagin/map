@@ -8,7 +8,7 @@ const mass = [
     doctots: [
       {
         name: 'Кадыров А. А.',
-        experience: 'от 5 лет',
+        experience: 4,
         specialization: ['Травмотолог', 'Ортопед'],
         sickness: ['Артрит'],
         reception: ['Онлайн' , 'В клинике', 'На дому']
@@ -24,7 +24,7 @@ const mass = [
     doctots: [
       {
         name: 'Сорокина О. Ю.',
-        experience: 'от 5 лет',
+        experience: 10,
         specialization: ['Кардиолог', 'Терапевт'],
         sickness: ['Гастрит', 'Артрит'],
         reception: ['Онлайн']
@@ -40,7 +40,7 @@ const mass = [
     doctots: [
       {
         name: 'Габелко Д. И.',
-        experience: 'от 5 лет',
+        experience: 20,
         specialization: ['Генетик'],
         sickness: ['Аномалии развития органов', 'Гастрит'],
         reception: ['В клинике']
@@ -56,7 +56,7 @@ const mass = [
     doctots: [
       {
         name: 'Артемьева О. В.',
-        experience: 'от 15 лет',
+        experience: 15,
         specialization: ['Офтальмолог (окулист)'],
         sickness: ['Болезнь Альцгеймера'],
         reception: ['На дому']
@@ -147,10 +147,9 @@ function init() {
               myPoints = myPoints.filter((point) => {
                 if (point.doctots.length) {
                   for (var prop in point.doctots) {
-                    for (let i = 0; i < point.doctots[prop]['experience'].length; i++){
-                      if (point.doctots[prop]['experience'][i] == selectValue){
-                        return true;
-                      }
+                    console.log(point.doctots[prop]['experience'])
+                    if (point.doctots[prop]['experience'] >= selectValue){
+                      return true;
                     }
                   }
                 }
