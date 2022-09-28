@@ -1,3 +1,7 @@
+function getRandomIntInclusive(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
 const mass = [
   {
     coords: [55.827732, 49.094601],
@@ -64,7 +68,7 @@ const mass = [
     ]
   },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -80,7 +84,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -96,7 +100,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -112,7 +116,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -126,10 +130,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -145,7 +148,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -161,7 +164,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -177,7 +180,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -191,10 +194,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -210,7 +212,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -226,7 +228,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -242,7 +244,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -256,10 +258,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -275,7 +276,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -291,7 +292,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -307,7 +308,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -321,10 +322,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -340,7 +340,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -356,7 +356,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -372,7 +372,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -386,10 +386,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -405,7 +404,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -421,7 +420,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -437,7 +436,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -451,10 +450,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -470,7 +468,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -486,7 +484,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -502,7 +500,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -516,10 +514,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -535,7 +532,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -551,7 +548,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -567,7 +564,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -581,10 +578,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -600,7 +596,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -616,7 +612,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -632,7 +628,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -646,10 +642,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -665,7 +660,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -681,7 +676,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -697,7 +692,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -711,10 +706,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -730,7 +724,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -746,7 +740,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -762,7 +756,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -776,10 +770,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -795,7 +788,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -811,7 +804,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -827,7 +820,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -841,10 +834,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -860,7 +852,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -876,7 +868,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -892,7 +884,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -906,10 +898,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -925,7 +916,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -941,7 +932,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -957,7 +948,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -971,10 +962,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -990,7 +980,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -1006,7 +996,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -1022,7 +1012,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -1036,10 +1026,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -1055,7 +1044,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -1071,7 +1060,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -1087,7 +1076,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -1101,10 +1090,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -1120,7 +1108,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -1136,7 +1124,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -1152,7 +1140,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -1166,10 +1154,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -1185,7 +1172,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -1201,7 +1188,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -1217,7 +1204,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -1231,10 +1218,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -1250,7 +1236,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -1266,7 +1252,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -1282,7 +1268,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
@@ -1296,10 +1282,9 @@ const mass = [
         reception: ['На дому']
       }
     ]
-  }
-  ,
+  },
   {
-  coords: [55.827732, 49.094601],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника «Доктор Ост»',
     type: 'Специализированная клиника',
     stocks: 'yes',
@@ -1315,7 +1300,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.827595, 49.125350],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Разумед',
     type: 'Клиника',
     stocks: 'yes',
@@ -1331,7 +1316,7 @@ const mass = [
     ]
   },
   {
-    coords: [55.829264, 49.123579],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Клиника семейной медицины +',
     type: 'Клиника',
     stocks: 'no',
@@ -1347,7 +1332,2887 @@ const mass = [
     ]
   },
   {
-    coords: [55.818574, 49.109774],
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Офтальмологическая клиника «Кузляр»',
+    type: 'Глазная клиника',
+    stocks: 'no',
+    service: ['Операция при глаукоме', 'Промывание ушей'],
+    doctots: [
+      {
+        name: 'Артемьева О. В.',
+        experience: 15,
+        specialization: ['Офтальмолог (окулист)'],
+        sickness: ['Болезнь Альцгеймера'],
+        reception: ['На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника «Доктор Ост»',
+    type: 'Специализированная клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза', 'Отоскопия'],
+    doctots: [
+      {
+        name: 'Кадыров А. А.',
+        experience: 4,
+        specialization: ['Травмотолог', 'Ортопед'],
+        sickness: ['Артрит'],
+        reception: ['Онлайн' , 'В клинике', 'На дому']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Разумед',
+    type: 'Клиника',
+    stocks: 'yes',
+    service: ['Узи малого таза'],
+    doctots: [
+      {
+        name: 'Сорокина О. Ю.',
+        experience: 10,
+        specialization: ['Кардиолог', 'Терапевт'],
+        sickness: ['Гастрит', 'Артрит'],
+        reception: ['Онлайн']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
+    title: 'Клиника семейной медицины +',
+    type: 'Клиника',
+    stocks: 'no',
+    service: ['Отоскопия'],
+    doctots: [
+      {
+        name: 'Габелко Д. И.',
+        experience: 20,
+        specialization: ['Генетик'],
+        sickness: ['Аномалии развития органов', 'Гастрит'],
+        reception: ['В клинике']
+      }
+    ]
+  },
+  {
+    coords: [getRandomIntInclusive(52.000000, 56.000000), getRandomIntInclusive(47.000000, 50.000000)],
     title: 'Офтальмологическая клиника «Кузляр»',
     type: 'Глазная клиника',
     stocks: 'no',
