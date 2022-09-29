@@ -4234,13 +4234,14 @@ function init() {
           center: [55.796127, 49.106414],
           zoom: 13,
           controls: ['zoomControl']
-      })
+      }),
+      clusterer = new ymaps.Clusterer();
 
       function filterMass(){
         var myPoints = mass.slice();
-        myCollection = new ymaps.GeoObjectCollection();
         var selectId = '';
         var selectValue = '';
+        var myGeoObjects = [];
 
         $('select').each(function(){
           if($(this).val()){
@@ -4327,20 +4328,25 @@ function init() {
         }
 
         for (var i = 0, l = myPoints.length; i < l; i++) {
-            var point = myPoints[i];
-            myCollection.add(new ymaps.Placemark(
-                point.coords, {
-                    balloonContentBody: point.title
-                }
-            ));
+            myGeoObjects[i] = new ymaps.GeoObject({
+              geometry: {
+                type: "Point",
+                coordinates: myPoints[i].coords,
+              },
+              properties: {
+                balloonContentBody: myPoints[i].title
+              }
+            });
         }
-        return myCollection;
+        return myGeoObjects;
       }
   // Добавляем коллекцию меток на карту.
-  myMap.geoObjects.add(filterMass());
+
+  clusterer.add(filterMass());
+  myMap.geoObjects.add(clusterer);
   $('.map__sorting').on('click', function(){
     myMap.geoObjects.removeAll();
-    myMap.geoObjects.add(filterMass());
+    myMap.geoObjects.add(clusterer);
   });
 }
 ymaps.ready(init);
