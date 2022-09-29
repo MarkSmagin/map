@@ -2,6 +2,10 @@ function getRandomIntInclusive(min, max) {
   return Math.random() * (max - min) + min;
 }
 
+function getRandomIntInclusive(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
 const mass = [
   {
     coords: [55.827732, 49.094601],
@@ -4345,7 +4349,8 @@ function init() {
   clusterer.add(filterMass());
   myMap.geoObjects.add(clusterer);
   $('.map__sorting').on('click', function(){
-    myMap.geoObjects.removeAll();
+    clusterer.removeAll();
+    clusterer.add(filterMass());
     myMap.geoObjects.add(clusterer);
   });
 }
