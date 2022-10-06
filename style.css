@@ -237,11 +237,9 @@ meter {
 	height: 3px;
 	background: #3C94EF;
 }
-
 .map-close::before {
 	transform: rotate(45deg);
 }
-
 .map-close::after {
 	transform: rotate(-45deg);
 }
