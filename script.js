@@ -4360,11 +4360,17 @@
   
     clusterer.add(filterMass());
     myMap.geoObjects.add(clusterer);
-    $('.map__filter').on('click', '.map__sorting', function(){
+    $('.map__filter').on('click', '.map__sorting', remake);
+    $('.map-close').on('click', function(){
+      $('.map__filter').html('');
+      remake();
+    })
+
+    function remake(){
       clusterer.removeAll();
       clusterer.add(filterMass());
       myMap.geoObjects.add(clusterer);
-      console.log('работает')
-    });
+    }
+
   }
   ymaps.ready(init);
