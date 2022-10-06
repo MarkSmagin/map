@@ -1,106 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=ada7606d-3795-4d4f-aac7-1508e476e1d4&lang=ru_RU" type="text/javascript"></script>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="map__wrap">
-    <div class="map__filter">
-      <div class="map__logo">
-        <img src="map__logo.png" alt="">
-      </div>
-      <div class="filter__item">
-        <label for="clinic_type">Тип клиники</label>
-        <div class="select__wrap">
-          <select name="clinic_type" id="clinic_type">
-            <option value=""></option>
-            <option value="Клиника">Клиника (многопрофильная)</option>
-            <option value="Гинекологическая клиника">Гинекологическая клиника</option>
-            <option value="Глазная клиника">Глазная клиника</option>
-            <option value="Наркология">Наркология</option>
-            <option value="Оздоровительная клиника">Оздоровительная клиника</option>
-            <option value="Специализировання клиника">Специализировання клиника</option>
-            <option value="Детская стоматологическая клиника">Детская стоматологическая клиника</option>
-            <option value="Кабинет врача">Кабинет врача</option>
-            <option value="Урологическая клиника">Урологическая клиника</option>
-            <option value="Детская клиника">Детская клиника</option>
-            <option value="Диагностический центр">Диагностический центр</option>
-            <option value="Лаборатория (анализы)">Лаборатория (анализы)</option>
-            <option value="Косметология">Косметология</option>
-            <option value="Ортопедический центр">Ортопедический центр</option>
-            <option value="Стоматология">Стоматология</option>
-            <option value="Роддом">Роддом</option>
-            <option value="Больница">Больница</option>
-            <option value="Детская больница">Детская больница</option>
-            <option value="Госпиталь">Госпиталь</option>
-            <option value="Хоспис">Хоспис</option>
-            <option value="НИИ">НИИ</option>
-            <option value="Санаторий">Санаторий</option>
-            <option value="Детский санаторий">Детский санаторий</option>
-            <option value="Скорая помощь">Скорая помощь</option>
-            <option value="Женская консультация">Женская консультация</option>
-            <option value="Амбулатория">Амбулатория</option>
-            <option value="Наркологический диспансер">Наркологический диспансер</option>
-            <option value="Кожно-венерологический диспансер">Кожно-венерологический диспансер (КВД)</option>
-            <option value="Психоневрологический диспансер">Психоневрологический диспансер</option>
-            <option value="Онкологический диспансер">Онкологический диспансер</option>
-            <option value="Противотуберкулезный диспансер">Противотуберкулезный диспансер</option>
-            <option value="Поликлиника">Поликлиника</option>
-            <option value="Детская больница">Детская больница</option>
-            <option value="Стоматологическая поликлиника">Стоматологическая поликлиника</option>
-            <option value="Медсанчасть">Медсанчасть</option>
-            <option value="КДЦ">КДЦ</option>
-            <option value="Детская стоматологическая клиника">Детская стоматологическая клиника</option>
-            <option value="Диспансер">Диспансер</option>
-            <option value="Травмпункт">Травмпункт</option>
-          </select>
-        </div>
-      </div>
-      <div class="filter__item">
-        <label for="sickness">Заболевание</label>
-        <div class="select__wrap">
-          <select name="sickness" id="sickness">
-            <option value=""></option>
-            <option value="Аллергические заболевания">Аллергические заболевания</option>
-            <option value="Болезнь Альцгеймера">Болезнь Альцгеймера</option>
-            <option value="Аномалии развития органов">Аномалии развития органов</option>
-            <option value="Гастрит">Гастрит</option>
-          </select>
-        </div>
-      </div>
-      <div class="filter__item">
-        <label for="service">Услуга</label>
-        <div class="select__wrap">
-          <select name="service" id="service">
-            <option value=""></option>
-            <option value="Узи малого таза">Узи малого таза</option>
-            <option value="Операция при глаукоме">Компьютерная аудиометрия</option>
-            <option value="Отоскопия">Отоскопия</option>
-            <option value="Промывание ушей">Промывание ушей</option>
-          </select>
-        </div>
-      </div>
-      <div class="filter__item">
-        <input type="checkbox" class="filter__item__stocks" id="stocks" name="stocks" value="yes">
-        <label for="stocks">Клиники с акциями</label>
-      </div>
-      <div class="map__sorting__wrap">
-        <button class="map__sorting">
-          <img src="map__sorting__arrows.svg" alt="">
-          СОРТИРОВАТЬ
-        </button>
-      </div>
-    </div>
-    <div class="map__body">
-      <div id="map"></div>
-    </div>
+<div class="map__logo">
+  <img src="map__logo.png" alt="">
+</div>
+<div class="filter__item">
+  <label for="clinic_type">Тип клиники</label>
+  <div class="select__wrap">
+    <select name="clinic_type" id="clinic_type">
+      <option value=""></option>
+      <option value="Клиника">Клиника (многопрофильная)</option>
+      <option value="Гинекологическая клиника">Гинекологическая клиника</option>
+      <option value="Глазная клиника">Глазная клиника</option>
+      <option value="Наркология">Наркология</option>
+      <option value="Оздоровительная клиника">Оздоровительная клиника</option>
+      <option value="Специализировання клиника">Специализировання клиника</option>
+      <option value="Детская стоматологическая клиника">Детская стоматологическая клиника</option>
+      <option value="Кабинет врача">Кабинет врача</option>
+      <option value="Урологическая клиника">Урологическая клиника</option>
+      <option value="Детская клиника">Детская клиника</option>
+      <option value="Диагностический центр">Диагностический центр</option>
+      <option value="Лаборатория (анализы)">Лаборатория (анализы)</option>
+      <option value="Косметология">Косметология</option>
+      <option value="Ортопедический центр">Ортопедический центр</option>
+      <option value="Стоматология">Стоматология</option>
+      <option value="Роддом">Роддом</option>
+      <option value="Больница">Больница</option>
+      <option value="Детская больница">Детская больница</option>
+      <option value="Госпиталь">Госпиталь</option>
+      <option value="Хоспис">Хоспис</option>
+      <option value="НИИ">НИИ</option>
+      <option value="Санаторий">Санаторий</option>
+      <option value="Детский санаторий">Детский санаторий</option>
+      <option value="Скорая помощь">Скорая помощь</option>
+      <option value="Женская консультация">Женская консультация</option>
+      <option value="Амбулатория">Амбулатория</option>
+      <option value="Наркологический диспансер">Наркологический диспансер</option>
+      <option value="Кожно-венерологический диспансер">Кожно-венерологический диспансер (КВД)</option>
+      <option value="Психоневрологический диспансер">Психоневрологический диспансер</option>
+      <option value="Онкологический диспансер">Онкологический диспансер</option>
+      <option value="Противотуберкулезный диспансер">Противотуберкулезный диспансер</option>
+      <option value="Поликлиника">Поликлиника</option>
+      <option value="Детская больница">Детская больница</option>
+      <option value="Стоматологическая поликлиника">Стоматологическая поликлиника</option>
+      <option value="Медсанчасть">Медсанчасть</option>
+      <option value="КДЦ">КДЦ</option>
+      <option value="Детская стоматологическая клиника">Детская стоматологическая клиника</option>
+      <option value="Диспансер">Диспансер</option>
+      <option value="Травмпункт">Травмпункт</option>
+    </select>
   </div>
-  <script src="jquery.min.js"></script>
-  <script src="script.js"></script>
-</body>
-</html>
+</div>
+<div class="filter__item">
+  <label for="sickness">Заболевание</label>
+  <div class="select__wrap">
+    <select name="sickness" id="sickness">
+      <option value=""></option>
+      <option value="Аллергические заболевания">Аллергические заболевания</option>
+      <option value="Болезнь Альцгеймера">Болезнь Альцгеймера</option>
+      <option value="Аномалии развития органов">Аномалии развития органов</option>
+      <option value="Гастрит">Гастрит</option>
+    </select>
+  </div>
+</div>
+<div class="filter__item">
+  <label for="service">Услуга</label>
+  <div class="select__wrap">
+    <select name="service" id="service">
+      <option value=""></option>
+      <option value="Узи малого таза">Узи малого таза</option>
+      <option value="Операция при глаукоме">Компьютерная аудиометрия</option>
+      <option value="Отоскопия">Отоскопия</option>
+      <option value="Промывание ушей">Промывание ушей</option>
+    </select>
+  </div>
+</div>
+<div class="filter__item">
+  <input type="checkbox" class="filter__item__stocks" id="stocks" name="stocks" value="yes">
+  <label for="stocks">Клиники с акциями</label>
+</div>
+<div class="map__sorting__wrap">
+  <button class="map__sorting">
+    <img src="map__sorting__arrows.svg" alt="">
+    СОРТИРОВАТЬ
+  </button>
+</div>

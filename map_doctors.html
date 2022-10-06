@@ -1,90 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=ada7606d-3795-4d4f-aac7-1508e476e1d4&lang=ru_RU" type="text/javascript"></script>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="map__wrap">
-    <div class="map__filter">
-      <div class="map__logo">
-        <img src="map__logo.png" alt="">
-      </div>
-      <div class="filter__item">
-        <label for="reception">Прием</label>
-        <div class="select__wrap">
-          <select name="reception" id="reception">
-            <option value=""></option>
-            <option value="Онлайн">Онлайн</option>
-            <option value="В клинике">В клинике</option>
-            <option value="На дому">На дому</option>
-          </select>
-        </div>
-      </div>
-      <div class="filter__item">
-        <label for="specialization">Специальность</label>
-        <div class="select__wrap">
-          <select name="specialization" id="specialization">
-            <option value=""></option>
-            <option value="Кардиолог">Хирург</option>
-            <option value="Генетик">Генетик</option>
-            <option value="Офтальмолог (окулист)">Окулист (Офтальмолог)</option>
-            <option value="Терапевт">Травматолог</option>
-            <option value="Ортопед">Ортопед</option>
-            <option value="Травмотолог">Травмотолог</option>
-          </select>
-        </div> 
-      </div>
-      <div class="filter__item">
-        <label for="experience">Стаж</label>
-        <div class="select__wrap">
-          <select name="experience" id="experience">
-            <option value=""></option>
-            <option value="5">от 5 лет</option>
-            <option value="15">от 15 лет</option>
-          </select>
-        </div>
-      </div>
-      <div class="filter__item">
-        <label for="sickness">Заболевание</label>
-        <div class="select__wrap">
-          <select name="sickness" id="sickness">
-            <option value=""></option>
-            <option value="Аллергические заболевания">Аллергические заболевания</option>
-            <option value="Болезнь Альцгеймера">Болезнь Альцгеймера</option>
-            <option value="Аномалии развития органов">Аномалии развития органов</option>
-            <option value="Гастрит">Гастрит</option>
-          </select>
-        </div>
-      </div>
-      <div class="filter__item">
-        <label for="service">Услуга</label>
-        <div class="select__wrap">
-          <select name="service" id="service">
-            <option value=""></option>
-            <option value="Узи малого таза">Узи малого таза</option>
-            <option value="Компьютерная аудиометрия">Компьютерная аудиометрия</option>
-            <option value="Отоскопия">Отоскопия</option>
-            <option value="Промывание ушей">Промывание ушей</option>
-          </select>
-        </div>
-      </div>
-      <div class="map__sorting__wrap">
-        <button class="map__sorting">
-          <img src="map__sorting__arrows.svg" alt="">
-          СОРТИРОВАТЬ
-        </button>
-      </div>
-    </div>
-    <div class="map__body">
-      <div id="map"></div>
-    </div>
+<div class="map__logo">
+  <img src="map__logo.png" alt="">
+</div>
+<div class="filter__item">
+  <label for="reception">Прием</label>
+  <div class="select__wrap">
+    <select name="reception" id="reception">
+      <option value=""></option>
+      <option value="Онлайн">Онлайн</option>
+      <option value="В клинике">В клинике</option>
+      <option value="На дому">На дому</option>
+    </select>
   </div>
-  <script src="jquery.min.js"></script>
-  <script src="script.js"></script>
-</body>
-</html>
+</div>
+<div class="filter__item">
+  <label for="specialization">Специальность</label>
+  <div class="select__wrap">
+    <select name="specialization" id="specialization">
+      <option value=""></option>
+      <option value="Кардиолог">Хирург</option>
+      <option value="Генетик">Генетик</option>
+      <option value="Офтальмолог (окулист)">Окулист (Офтальмолог)</option>
+      <option value="Терапевт">Травматолог</option>
+      <option value="Ортопед">Ортопед</option>
+      <option value="Травмотолог">Травмотолог</option>
+    </select>
+  </div> 
+</div>
+<div class="filter__item">
+  <label for="experience">Стаж</label>
+  <div class="select__wrap">
+    <select name="experience" id="experience">
+      <option value=""></option>
+      <option value="5">от 5 лет</option>
+      <option value="15">от 15 лет</option>
+    </select>
+  </div>
+</div>
+<div class="filter__item">
+  <label for="sickness">Заболевание</label>
+  <div class="select__wrap">
+    <select name="sickness" id="sickness">
+      <option value=""></option>
+      <option value="Аллергические заболевания">Аллергические заболевания</option>
+      <option value="Болезнь Альцгеймера">Болезнь Альцгеймера</option>
+      <option value="Аномалии развития органов">Аномалии развития органов</option>
+      <option value="Гастрит">Гастрит</option>
+    </select>
+  </div>
+</div>
+<div class="filter__item">
+  <label for="service">Услуга</label>
+  <div class="select__wrap">
+    <select name="service" id="service">
+      <option value=""></option>
+      <option value="Узи малого таза">Узи малого таза</option>
+      <option value="Компьютерная аудиометрия">Компьютерная аудиометрия</option>
+      <option value="Отоскопия">Отоскопия</option>
+      <option value="Промывание ушей">Промывание ушей</option>
+    </select>
+  </div>
+</div>
+<div class="map__sorting__wrap">
+  <button class="map__sorting">
+    <img src="map__sorting__arrows.svg" alt="">
+    СОРТИРОВАТЬ
+  </button>
+</div>

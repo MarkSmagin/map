@@ -4,10 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ada7606d-3795-4d4f-aac7-1508e476e1d4&lang=ru_RU" type="text/javascript"></script>
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
-  <a href="map_clinics.html">Карта клиник</a>
-  <a href="map_doctors.html">Карта докторов</a>
+  <button class="btn btn-map btn-map-clinics" data-bs-toggle="modal" data-bs-target="#mapPopup">Карта клиник</button>
+  <button class="btn btn-map btn-map-doctors" data-bs-toggle="modal" data-bs-target="#mapPopup">Карта докторов</button>
+
+  <div class="modal fade" id="mapPopup" tabindex="-1" aria-labelledby="mapPopupLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="map-close" data-bs-dismiss="modal" aria-label="close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="map__wrap">
+            <div class="map__filter">
+              
+            </div>
+            <div class="map__body">
+              <div id="map"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="jquery.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

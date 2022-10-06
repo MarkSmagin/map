@@ -200,3 +200,48 @@ meter {
 .filter__item__stocks:disabled+label::before {
   background-color: #e9ecef;
 }
+.modal{
+  --bs-modal-margin: 0;
+  --bs-modal-box-shadow: none;
+  --bs-modal-width: auto;
+  --bs-modal-padding: 0;
+  --bs-modal-border-width: 0;
+  --bs-modal-border-radius: 0;
+  --bs-modal-header-padding: 0;
+  --bs-modal-header-border-width: 0;
+}
+.modal-header{
+  position: relative;
+}
+.map-close{
+  border: 2px solid #3C94EF;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1;
+  background: white;
+}
+.map-close::before,
+.map-close::after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 24px;
+	height: 3px;
+	background: #3C94EF;
+}
+
+.map-close::before {
+	transform: rotate(45deg);
+}
+
+.map-close::after {
+	transform: rotate(-45deg);
+}
